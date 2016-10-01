@@ -1,0 +1,22 @@
+@import url(//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/hybrid.min.css);
+a{color:#ddd}
+a:hover{color:#888}
+input{background-color:rgba(230,230,230,.35);color:#FFF}
+textarea{background-color:rgba(230,230,230,.35)}
+.color-light{color:#999}
+.color-elight{color:#777}
+.color-yellow{color:#f0f0c3}
+.color-blue{color:#3287f5}
+.color-lightBlue{color:#64cdfa}
+.color-green{color:#50be55}
+.color-red{color:#f07d5f}
+.background-color{background-color:rgba(50,50,50,.8)}
+.submit{background-color:rgba(255,255,255,.3)}
+.post-header{text-shadow:0 0 3px #000}
+.light-mode{display:none!important}
+.color-text,.page-button i{color:#fff}
+.color-ccc,.widget a:hover{color:#ccc}
+.color-white,.widget a{color:#FFF}
+.light,#light-wallpaper{display:none}
+#sidebar{background-color:rgba(0,0,0,.35);text-shadow:0 0 3px #000}
+#switch-icon{background:rgba(100,100,100,.85)}

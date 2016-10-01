@@ -1,0 +1,44 @@
+
+
+.comment-floor{position:relative;padding-top: 5px;}
+.comment-floor p{margin: 10px auto;}
+.comment-list{list-style: none}
+.reply-to{margin-left:10px;font-size: .85em}
+
+.comment-meta{
+    font-size: .85em;
+}
+.comment-ua{display: none}
+.avatar{float: left;padding:3px 10px; width: 75px;height: 75px}
+.comment-meta .fn{
+    font-size: 1.25em
+}
+.comment-content{font-size: 1.1em}
+.comment-body{
+    border-top:1px dashed #999;
+    margin-bottom: 45px;
+}
+.comment-children{margin-top: 30px;}
+.comment-children ul{
+    padding-left: 0
+}
+.comment-children .avatar{
+    width: 45px;
+    height: 45px;
+}
+
+.gravatar-v{
+    opacity: 0.65;
+}
+
+#textarea{margin-left: 20px;font-size: .9em}
+#comments ul{padding-left: 0}
+
+@media (max-width:682px){
+.comment-children ol{padding-left: 20px}
+.comment-list{padding-left: 5px}
+.comment-avatar{margin-right: 7px}
+.comment-avatar img{width: 64px;height: 64px}
+.comment-children .comment-avatar img{width: 40px;height: 40px;}
+.gravatar-v{display: none}
+}

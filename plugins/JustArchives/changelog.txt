@@ -1,0 +1,9 @@
+== changelog ==
+...
+v0.2.2 修正只有在归档页加载 javascript，把 javascript 修改为在网页底部加载
+
+
+modified by HondaMiyu 09/16/2016
+修改jQuery为CDN加载(v3.1.0)
+修改排版和jQuery代码
+添加自定义输出时间格式

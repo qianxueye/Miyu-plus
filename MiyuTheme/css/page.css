@@ -1,0 +1,19 @@
+.cate-count{
+    margin-left: 15px
+}
+.post-category{
+margin:10px;
+}
+.post-tags{
+margin:10px
+}
+.post-tags a{
+    margin:5px
+}
+#post-search{padding-left: 40px;}
+#post-search label{margin-right: 20px;}
+#post-search input{
+    height: 25px;
+    border:2px solid rgba(255,255,255,.55);
+    font-size: 1em
+}
