@@ -1,4 +1,4 @@
-== changelog ==
+### changelog
 ...
 v0.2.2 修正只有在归档页加载 javascript，把 javascript 修改为在网页底部加载
 
