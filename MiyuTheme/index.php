@@ -1,6 +1,6 @@
 <?php
 /**
- * 千雪夜自用的Typecho主题。2014年Wordpress Theme的重制版。
+ * 千雪自用的Typecho主题。 此前Wordpress Theme的重制版。
  * 
  * @package Miyu++ Typecho Theme 
  * @author 千雪夜(HondaMiyu)
