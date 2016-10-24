@@ -8,7 +8,7 @@
     <div class="post-header color-title <?php if($this->fields->coverimageurl != null) echo 'cover-position'; ?>" >
         <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
         <ul class="post-meta">
-            <li><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('M d, Y'); ?></time>
+            <li><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('[ M d, Y ] G:i'); ?></time>
             &nbsp&nbsp<?php _e('分类: '); ?><?php $this->category(','); ?></li>
         </ul>
     </div>

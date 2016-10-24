@@ -4,7 +4,7 @@
  * 
  * @package Miyu++ Typecho Theme 
  * @author 千雪夜(HondaMiyu)
- * @version 1.0
+ * @version 1.3
  * @link https://kirisame.moe
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
@@ -17,7 +17,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 <?php $this->title(); ?></a></h1>
             <div class="post-meta color-light">
             <ul>
-                <li><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('M d, Y'); ?></time>
+                <li><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('[ M d, Y ] G:i'); ?></time>
                 &nbsp&nbsp<?php _e('分类: '); ?><?php $this->category(','); ?></li>
 				<li itemprop="interactionCount"><?php $this->commentsNum('暂无评论', '1 评论', '%d 评论'); ?></li></ul>
             </div>

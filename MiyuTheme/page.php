@@ -8,7 +8,7 @@
     <div class="post-inner">
         <div class="post-header <?php if($this->fields->coverimageurl != null) echo 'cover-position'; ?>">
             <h1 class="post-title"><?php $this->title() ?></h1>
-            <div class="post-meta"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished">创建于： <?php $this->date('M d, Y'); ?></time></div>
+            <div class="post-meta"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished">创建于： <?php $this->date('M d, Y  G:i:s'); ?></time></div>
         </div>
         <style>.post-content{margin-bottom:80px}</style>
         <div class="post-content">

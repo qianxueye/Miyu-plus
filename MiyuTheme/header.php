@@ -43,10 +43,10 @@
         var themeurl = "<?php $this->options->themeUrl(); ?>";
         <?php if($this->options->imagecopyright != null): ?>
         var imgsrc = <?php echo $this->options->imagecopyright ?>;
-        <?php else :?>
+        <?php else: ?>
          var imgsrc = null;
         <?php endif ?>
-    </script>
+        </script>
     <style type="text/css">
         <?php if(isset($_COOKIE["color"])) {
               if($_COOKIE["color"] == "Light") echo "#checked{display: none}";
@@ -54,10 +54,7 @@
         }elseif($this->options->themecolorstyle == "LightMode")
                 echo "#checked{display: none}";
             else
-           echo "#unchecked{display: none}";
-        ?>
-    
-       
+           echo "#unchecked{display: none}";?>
     </style>
     
         <?php $this->header(); ?>
